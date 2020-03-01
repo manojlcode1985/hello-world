@@ -1,3 +1,16 @@
-My python code
-print('manoj')
+# My First python code
 print('hello world)
+
+# Prime Number logic
+num =  input('Enter a number between 1 to 100: ')
+
+prime = False
+for i in range(2,num):
+  if num % i == 0:
+      prime = True
+
+if prime:
+  print(f'{num} is a PRIME')
+else:
+  print(f'{num} is NOT a PRIME')
+      
