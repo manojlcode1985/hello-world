@@ -1,6 +1,14 @@
 # My First python code
 print('hello world)
 
+
+# Odd Even logic
+num = input('Enter a number: ')
+if num % 2 == 0:
+  print(f'{num} is EVEN')
+else:
+  print(f'{num} is ODD')
+
 # Greater or Lesser
 num = input('Enter a num between 1 to 10')
 if num < 5:
@@ -23,3 +31,4 @@ if prime:
 else:
   print(f'{num} is NOT a PRIME')
       
+
